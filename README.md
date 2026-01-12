@@ -14,7 +14,7 @@ A lightweight PHP SDK for integrating Touch and Pay inline payment system into P
 
 ### Option 1: Download Release (Recommended)
 
-Download the latest release from the [Releases](https://github.com/nicaborwn/TAP-Payment-PHP/releases) page:
+Download the latest release from the [Releases](https://github.com/TouchAndPay-Technologies/TAP-Payment-PHP/releases) page:
 
 1. Download `TAPPaymentPop.php` from the latest release
 2. Include it in your project:
@@ -26,7 +26,7 @@ require_once 'path/to/TAPPaymentPop.php';
 ### Option 2: Clone Repository
 
 ```bash
-git clone https://github.com/nicaborwn/TAP-Payment-PHP.git
+git clone https://github.com/TouchAndPay-Technologies/TAP-Payment-PHP.git
 ```
 
 ### Option 3: Composer (Coming Soon)
@@ -318,14 +318,14 @@ try {
 
 ## Releases
 
-You can download source files directly from the [Releases](https://github.com/nicaborwn/TAP-Payment-PHP/releases) page:
+You can download source files directly from the [Releases](https://github.com/TouchAndPay-Technologies/TAP-Payment-PHP/releases) page:
 
 - **TAPPaymentPop.php** - The main SDK file (only file needed for integration)
 - **example.php** - Example implementation for reference
 
 ### How to Download
 
-1. Go to the [Releases](https://github.com/nicaborwn/TAP-Payment-PHP/releases) page
+1. Go to the [Releases](https://github.com/TouchAndPay-Technologies/TAP-Payment-PHP/releases) page
 2. Find the latest version (e.g., v2.0.0)
 3. Under "Assets", download:
    - `TAPPaymentPop.php` - The SDK file you need
@@ -341,4 +341,4 @@ MIT License
 
 ## Support
 
-For support, please contact support@touchandpay.me
+For support, please contact info@touchandpay.me

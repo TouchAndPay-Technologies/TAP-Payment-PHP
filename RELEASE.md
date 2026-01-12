@@ -13,7 +13,7 @@
 #      example.php
 #
 # 2. Using GitHub Web UI:
-#    a. Go to https://github.com/nicaborwn/TAP-Payment-PHP/releases/new
+#    a. Go to https://github.com/TouchAndPay-Technologies/TAP-Payment-PHP/releases/new
 #    b. Choose a tag (e.g., v1.0.0)
 #    c. Set release title
 #    d. Add release notes (copy from CHANGELOG.md)
