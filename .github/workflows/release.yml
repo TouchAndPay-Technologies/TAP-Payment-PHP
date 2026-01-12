@@ -1,0 +1,45 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            TAPPaymentPop.php
+            example.php
+          generate_release_notes: true
+          body: |
+            ## Installation
+            
+            Download `TAPPaymentPop.php` and include it in your PHP project:
+            
+            ```php
+            require_once 'path/to/TAPPaymentPop.php';
+            ```
+            
+            ## Quick Start
+            
+            ```php
+            echo TAPPaymentPop::quickPayment([
+                'apiKey' => 'your_api_key',
+                'transID' => 'TXN_' . time(),
+                'amount' => 5000,
+                'email' => 'customer@example.com',
+            ], 'Pay Now');
+            ```
+            
+            See [README.md](https://github.com/nicaborwn/TAP-Payment-PHP#readme) for full documentation.
